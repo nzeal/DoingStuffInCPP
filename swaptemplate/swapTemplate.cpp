@@ -1,12 +1,11 @@
-/* ==================================
- *  Template, Swap C++ code
- *    Nitin Shukla
- *    Bologna CINECA
- *    31/08/2022
- *  Note: there is another version 
- *  of this code (even simpler)
- * ==================================
- * */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+   !!						 			!!
+   !!			Template, Swap C++ code		         	!!
+   !!          Written by Nitin Shukla - CINECA -2020 Bologna		!!
+   !!    Note: there is another version of this code (even simpler)    	!!
+   !!									!!
+   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ */
 
 #include <iostream>
 #include <tuple> 
