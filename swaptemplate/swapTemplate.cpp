@@ -1,5 +1,6 @@
 #include <iostream>
 #include <tuple> 
+#include <string>
 using namespace std;
 
 template <class T>
@@ -43,8 +44,11 @@ int main()
     Swap<int> intNum(1,2);
     intNum.displayResult();
     
-    Swap<char> intString('x', 'y');
-    intString.displayResult();
+    Swap<char> ichar('x', 'y');
+    ichar.displayResult();
+    
+    Swap<string> iString("Hello", "World!");
+    iString.displayResult();
     
     cout << "Successfully swapped" << endl;
     return 0;
