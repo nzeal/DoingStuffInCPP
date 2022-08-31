@@ -2,9 +2,9 @@
 
  </p>
  
- <h2 align="center"> Cpp code </h2>
+ <h2 align="center"> Nitin Shukla </h2>
 
-<p align="center"> Nitin Shukla </p>
+<p align="center"> Bologna, Cineca </p>
   
 
 
