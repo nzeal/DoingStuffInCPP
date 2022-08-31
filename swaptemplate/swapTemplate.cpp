@@ -1,3 +1,13 @@
+/* ==================================
+ *  Template, Swap C++ code
+ *    Nitin Shukla
+ *    Bologna CINECA
+ *    31/08/2022
+ *  Note: there is another version 
+ *  of this code (even simpler)
+ * ==================================
+ * */
+
 #include <iostream>
 #include <tuple> 
 #include <string>
