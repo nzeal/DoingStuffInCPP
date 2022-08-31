@@ -1,8 +1,8 @@
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-   !!						 			                                                  !!
-   !!			        Template, Swap C++ code		         	                  !!
-   !!          Written by Nitin Shukla - CINECA -2020 Bologna		        !!
-   !!									                                                  !!
+   !!						 			                                          !!
+   !!			        Template, Swap C++ code		         	            !!
+   !!          Written by Nitin Shukla - CINECA -2020 Bologna		      !!
+   !!									                                          !!
    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 */
 
