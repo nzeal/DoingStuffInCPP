@@ -1,4 +1,4 @@
-# Install script for directory: /Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/maps
+# Install script for directory: /Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/tuple
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/maps/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/tuple/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.18.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/maps"
+CMAKE_SOURCE_DIR = "/Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/tuple"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/maps/build"
+CMAKE_BINARY_DIR = "/Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/tuple/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/maps/build/CMakeFiles" "/Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/maps/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/tuple/build/CMakeFiles" "/Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/tuple/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/maps/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nitshuklayahoo.com/Documents/ProgamLang/CandCpp/src/LearnCppByDoing /application_cpp/tuple/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named map
+# Target rules for targets named tuple
 
 # Build rule for target.
-map: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 map
-.PHONY : map
+tuple: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tuple
+.PHONY : tuple
 
 # fast build rule for target.
-map/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map.dir/build.make CMakeFiles/map.dir/build
-.PHONY : map/fast
+tuple/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuple.dir/build.make CMakeFiles/tuple.dir/build
+.PHONY : tuple/fast
 
 main.o: main.cpp.o
 
@@ -148,7 +148,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map.dir/build.make CMakeFiles/map.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuple.dir/build.make CMakeFiles/tuple.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -157,7 +157,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map.dir/build.make CMakeFiles/map.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuple.dir/build.make CMakeFiles/tuple.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -166,7 +166,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map.dir/build.make CMakeFiles/map.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuple.dir/build.make CMakeFiles/tuple.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,7 +177,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... map"
+	@echo "... tuple"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

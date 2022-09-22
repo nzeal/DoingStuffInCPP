@@ -1,23 +1,20 @@
-// Online C++ compiler to run C++ program online
-
 #include <iostream>
-#include <map>
+#include <tuple>
 using namespace std;
 
-int main() {
-    map<char, int> mp = {
-        {'T', 7},
-        {'S', 8},
-        {'a', 4},
-    };
-    mp['u'] = 9; 
-    pair<char, int>p1('j', 5);
-    mp.insert(p1);
-    
-    for (map<char, int>::iterator itr = mp.begin(); itr != mp.end(); itr++) {
-        cout << "Keys :=> " ;
-        cout << itr->first << endl;
-        cout << "Values :=> " ;
-        cout << (*itr).second << endl;
-    }
+int main()
+{
+  tuple<int, string> stuff(10, "Apple");
+  cout << get<0>(stuff) << endl;
+  cout << get<1>(stuff);
+  get<1>(stuff) = "Goog";
+  cout << "\nnew stuff is:" << endl;
+  cout << get<1>(stuff) << endl;
+  
+  tuple<int, char, bool, float> things;
+  things = make_tuple(10, 'A', true, 12.5);
+  cout << get<0>(things) << endl;
+  cout << get<1>(things) << endl;
+  cout << get<2>(things) << endl;
+  cout << get<3>(things) << endl;
 }
